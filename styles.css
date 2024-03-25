@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+body{
+	width:1100px;
+	background-color:#ccd5ae;
+}
+.row1:nth-child(odd),.row2:nth-child(odd){
+	width:200px;
+}
+.row1:nth-child(2),.row2:first-child(2){
+	width:600px;
+}
+td{
+	text-align:center;
+}
